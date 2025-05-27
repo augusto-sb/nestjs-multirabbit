@@ -1,0 +1,1 @@
+nestjs app that can write to different queues dynamically
