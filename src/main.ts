@@ -1,6 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
-import { version } from '../package.json';
+//import { version } from '../package.json';
+import { version } from 'package.json';
 
 async function bootstrap() {
   console.log(`app version: ${version}`);
